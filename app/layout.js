@@ -1,16 +1,16 @@
-import localFont from "next/font/local";
+import Header from "@/components/header";
 import "./globals.css";
+import { Inter, Climate_Crisis } from 'next/font/google'
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+export const climate_crisis = Climate_Crisis({
+  subsets:['latin'],
+  display:'swap'
+})
+
+export const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -19,10 +19,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className="mt-0">
+      <body className={climate_crisis.className}>
+        <Header />
         {children}
       </body>
     </html>
