@@ -1,12 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
     <div className="Hero mx-5 md:mx-10 lg:mx-20 ">
-      <div className="flex flex-col">
-        <h1 className="mt-10 text-4xl md:text-7xl lg:text-9xl" >MOHAMED AMINE <br/> MEZZAT</h1>
-        <p className="text-lg md:text-4xl mt-2">© Portfolio</p>
+      <div className="relative flex flex-col lg:flex-row">
+        <h1 className="mt-10 text-4xl md:text-7xl lg:text-8xl " >MOHAMED AMINE <br/> MEZZAT</h1>
+        <p className="text-lg md:text-4xl mt-2 lg:absolute lg:">© Portfolio</p>
       </div>
       <div className="relative flex flex-col md:flex-row justify-center items-center md:justify-around md:mt-30">
         <h2 className="text-2xl mt-10 text-BrandPurple md:text-3xl">DEVELOPER</h2>
@@ -38,6 +39,11 @@ export default function Home() {
           <path d="M451.586 37.1973C451.586 42.7292 452.029 48.4479 451.307 53.9354C450.428 60.6121 449.564 67.3541 449.35 74.0893C449.024 84.3616 449.35 94.5447 449.35 104.833" stroke="#9C4DC1" stroke-width="20" stroke-linecap="round"/>
       <path d="M452.704 33.8435C460.975 29.7082 470.946 25.8704 480.373 28.0985C486.916 29.645 491.735 37.0604 491.832 43.4702C491.866 45.6881 492.44 48.9245 491.149 50.861C488.387 55.0041 484.674 58.5656 480.653 61.4814C474.109 66.2254 466.319 68.5372 459.101 71.8534C457.611 72.5379 458.062 72.4124 459.412 72.4124C465.119 72.4124 469.461 75.3969 474.1 78.53C477.945 81.1265 482.021 83.9399 485.59 86.9146C487.747 88.7121 489.048 91.1061 490.962 93.0943C494.203 96.4599 497.642 99.4839 500.527 103.156C502.217 105.306 503.57 103.318 503.57 106.51" stroke="#9C4DC1" stroke-width="20" stroke-linecap="round"/>
     </svg>
+    </div>
+
+    <div className="buttons flex justify-around mt-16 w-1/2">
+      <Link className="bg-BrandPurple p-2 rounded-2xl" href="/">My resume</Link>
+      <Link className="p-2 bg-slate-50 text-gray-950 rounded-2xl" href="/">Projects</Link>
     </div>
   </div>
 
