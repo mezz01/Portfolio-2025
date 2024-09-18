@@ -41,8 +41,8 @@ export default function Home() {
     </svg>
     </div>
 
-    <div className="buttons flex justify-around mt-16 w-1/2">
-      <Link className="bg-BrandPurple p-2 rounded-2xl" href="/">My resume</Link>
+    <div className="buttons flex justify-around md:mt-16 md:w-1/2">
+      <Link className="text-sm bg-BrandPurple p-2 rounded-2xl" href="/">My resume</Link>
       <Link className="p-2 bg-slate-50 text-gray-950 rounded-2xl" href="/">Projects</Link>
     </div>
   </div>
