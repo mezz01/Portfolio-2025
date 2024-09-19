@@ -4,11 +4,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-20 min-h-full">
+    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-20 min-h-full py-16">
       <div className="flex flex-col lg:flex-col w-full">
         <h1 className="text-4xl md:text-7xl lg:text-8xl" >MOHAMED AMINE MEZZAT</h1>
         <p className="text-lg md:text-4xl mt-2">© Portfolio</p>
       </div>
+
+      <div className="flex flex-col  justify-around md:justify-around">
       <div className="relative flex flex-col md:flex-row justify-center items-center md:justify-around">
         <h2 className="text-2xl text-BrandPurple md:text-3xl lg:text-4xl">DEVELOPER</h2>
 
@@ -41,10 +43,12 @@ export default function Home() {
     </svg>
     </div>
 
-    <div className="buttons flex justify-around md:w-1/2 lg:w-1/3">
+    <div className=" z-40 buttons flex justify-around ">
       <Link className="text-sm bg-BrandPurple p-2 rounded-2xl" href="/">My resume</Link>
       <Link className="p-2 bg-slate-50 text-gray-950 rounded-2xl" href="/">Projects</Link>
     </div>
+    </div>
+
   </div>
 
     <div className="services mt">

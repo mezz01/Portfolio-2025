@@ -7,15 +7,19 @@
   --foreground: #D9D9D9;
 }
 
+html {
+  height: 100vh;
+}
 html, body{
   overflow-x: hidden;
 }
 
 body {
+  z-index: 0;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  height: 95dvh;
+  height: 100%;
 }
 
 @layer utilities {
