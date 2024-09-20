@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-20 min-h-full py-16">
-      <div className="flex flex-col lg:flex-col w-full">
+    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-30 min-h-full py-16">
+      <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h1 className="text-4xl md:text-7xl lg:text-8xl" >MOHAMED AMINE MEZZAT</h1>
         <p className="text-lg md:text-4xl mt-2">© Portfolio</p>
       </div>
@@ -50,9 +50,19 @@ export default function Home() {
     </div>
     </div>
 
-    <div className="services mt">
-      <ServiceCard title="Front-end developement" description="Shipping fast and good looking UI using different technologies and libraries" />
+    <div className="h-full mt-32 flex justify-around">
+    <div className="h-2/3 mt-10 ">
+      <h1 className="text-4xl lg:text-6xl ml-4 ">Services :</h1>
+      <div className="services mt-10 flex flex-wrap justify-around">
+        <ServiceCard  title="Front-end developement" description="Shipping fast and good looking UI using different technologies and libraries" />
+        <ServiceCard  title="Backend-end developement" description="Shipping fast and good looking UI using different technologies and libraries" />
+        <ServiceCard  title="UI/UX Design" description="Shipping fast and good looking UI using different technologies and libraries" />
+      </div>
     </div>
+      
+
+    </div>
+      
   </>
   );
 }
