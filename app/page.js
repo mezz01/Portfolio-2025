@@ -12,7 +12,7 @@ export default function Home() {
       </div>
 
       
-      <div className=" flex flex-col md:flex-row justify-between items-center md:justify-around">
+      <div className=" flex flex-col  md:flex-row justify-between items-center md:justify-around">
         <h2 className="text-2xl grow-0 text-BrandPurple md:text-3xl lg:text-4xl">DEVELOPER</h2>
 
         <svg className="star grow-0 sm:my-10 h-24 w-24 md:h-64 md:w-64 lg:h-72 lg:w-72 rounded-full bg-BrandPurple shadow-BrandPurple blur-2xl" 
@@ -43,17 +43,12 @@ export default function Home() {
       <path d="M452.704 33.8435C460.975 29.7082 470.946 25.8704 480.373 28.0985C486.916 29.645 491.735 37.0604 491.832 43.4702C491.866 45.6881 492.44 48.9245 491.149 50.861C488.387 55.0041 484.674 58.5656 480.653 61.4814C474.109 66.2254 466.319 68.5372 459.101 71.8534C457.611 72.5379 458.062 72.4124 459.412 72.4124C465.119 72.4124 469.461 75.3969 474.1 78.53C477.945 81.1265 482.021 83.9399 485.59 86.9146C487.747 88.7121 489.048 91.1061 490.962 93.0943C494.203 96.4599 497.642 99.4839 500.527 103.156C502.217 105.306 503.57 103.318 503.57 106.51" stroke="#9C4DC1" stroke-width="20" stroke-linecap="round"/>
     </svg>
     </div>
-
-    <div className=" z-40 mt-10 buttons flex justify-around ">
-      <Link className="text-sm bg-BrandPurple p-2 rounded-2xl lg:text-xl" href="/">My resume</Link>
-      <Link className="p-2 bg-slate-50 text-gray-950 rounded-2xl lg:text-xl" href="/">Projects</Link>
-    </div>
     </section>
 
     <section className="min-h-screen mt-32 flex flex-col justify-around">
   <div className="flex-grow">
     <h1 className="text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services :</h1>
-    <div className="services flex flex-wrap justify-around gap-4">
+    <div className="services flex flex-wrap justify-around gap-4 lg:mt-20">
       <ServiceCard title="Front-end development" description="Shipping fast and good looking UI using different technologies and libraries" />
       <ServiceCard title="Back-end development" description="Building robust and scalable server-side solutions" />
       <ServiceCard title="UI/UX Design" description="Designing intuitive and visually appealing user interfaces" />
@@ -61,7 +56,7 @@ export default function Home() {
   </div>
   
   <div className="Tech mt-auto md:mb-16 lg:mb-20">
-    <div className="relative flex overflow-x-hidden">
+    <div className="relative flex overflow-x-hidden ">
       <div className="py-9 animate-marquee whitespace-nowrap">
         <span className="text-2xl lg:text-4xl mx-6">JAVASCRIPT</span>
         <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>

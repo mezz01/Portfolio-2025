@@ -7,7 +7,7 @@ const ServiceCard = ({ title, description }) => {
 
   return (
     <div 
-      className="w-72 h-72 lg:w-[400px] bg-gradient-to-br from-BrandPurple rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out"
+      className="w-72 h-72 lg:w-[400px] bg-gradient-to-br from-BrandPurple rounded-lg overflow-hidden hover:scale-110 hover:from-black transition-all duration-300 ease-in-out"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -15,7 +15,7 @@ const ServiceCard = ({ title, description }) => {
         <h3 className={`text-2xl lg:text-4xl text-center mb-4 transition-all duration-300 ease-in-out ${isHovered ? 'transform -translate-y-3' : ''}`}>
           {title}
         </h3>
-        <p className={`text-center text-xl lg:text-2xl font-sans transition-all duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+        <p className={`text-center text-xl lg:text-2xl font-serif transition-all duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
           {description}
         </p>
       </div>
