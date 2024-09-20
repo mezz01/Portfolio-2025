@@ -7,12 +7,11 @@ export default function Home() {
     <>
     <section className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans">Hi I'm</h2>
+        <h2 className="text-lg md:text-xl lg:text-4xl font-sans">Hi I'm</h2>
         <h1 className="text-4xl md:text-7xl lg:text-8xl" >MOHAMED AMINE <span className=" text-BrandPurple">MEZZAT</span></h1>
         <p className="text-lg md:text-4xl mt-2 font-sans font-normal">2025 © Portfolio</p>
       </div>
 
-      
       <div className=" flex flex-col md:flex-row justify-between items-center md:justify-around">
         <h2 className="text-2xl grow-0 text-BrandPurple md:text-3xl lg:text-4xl">DEVELOPER</h2>
 
