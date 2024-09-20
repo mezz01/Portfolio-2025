@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-30 min-h-full">
+    <section className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h1 className="text-4xl md:text-7xl lg:text-8xl" >MOHAMED AMINE MEZZAT</h1>
         <p className="text-lg md:text-4xl mt-2">© Portfolio</p>
@@ -48,66 +48,64 @@ export default function Home() {
       <Link className="text-sm bg-BrandPurple p-2 rounded-2xl lg:text-xl" href="/">My resume</Link>
       <Link className="p-2 bg-slate-50 text-gray-950 rounded-2xl lg:text-xl" href="/">Projects</Link>
     </div>
+    </section>
+
+    <section className="min-h-screen mt-32 flex flex-col justify-around">
+  <div className="flex-grow">
+    <h1 className="text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services :</h1>
+    <div className="services flex flex-wrap justify-around gap-4">
+      <ServiceCard title="Front-end development" description="Shipping fast and good looking UI using different technologies and libraries" />
+      <ServiceCard title="Back-end development" description="Building robust and scalable server-side solutions" />
+      <ServiceCard title="UI/UX Design" description="Designing intuitive and visually appealing user interfaces" />
     </div>
+  </div>
+  
+  <div className="Tech mt-auto md:mb-16 lg:mb-20">
+    <div className="relative flex overflow-x-hidden">
+      <div className="py-9 animate-marquee whitespace-nowrap">
+        <span className="text-2xl lg:text-4xl mx-6">JAVASCRIPT</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">REACT</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">NEXT.JS</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">TAILWIND</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">REDUX</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">GIT/GITHUB</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">EXPRESS.JS</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">FIREBASE</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">SHADCN-UI</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+      </div>
 
-    <div className="h-full mt-32 flex flex-col justify-around ">
-
-    <div className="h-2/3 mt-10 ">
-      <h1 className="text-4xl lg:text-6xl ml-4 ">Services :</h1>
-      <div className="services mt-10 flex flex-wrap justify-around">
-        <ServiceCard  title="Front-end developement" description="Shipping fast and good looking UI using different technologies and libraries" />
-        <ServiceCard  title="Backend-end developement" description="Shipping fast and good looking UI using different technologies and libraries" />
-        <ServiceCard  title="UI/UX Design" description="Shipping fast and good looking UI using different technologies and libraries" />
+      <div className="absolute top-0 py-9 animate-marquee2 whitespace-nowrap">
+      <span className="text-2xl lg:text-4xl mx-6">JAVASCRIPT</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">REACT</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">NEXT.JS</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">TAILWIND</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">REDUX</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">GIT/GITHUB</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">EXPRESS.JS</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">FIREBASE</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-2xl lg:text-4xl mx-6">SHADCN-UI</span>
+        <span className="text-2xl lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
       </div>
     </div>
-      
-    <div className="Tech mb-20">
-    <div class="relative flex overflow-x-hidden">
-      <div class="py-9 animate-marquee whitespace-nowrap">
-        <span class="text-2xl lg:text-4xl mx-6">JAVASCRIPT</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">REACT</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">NEXT.Js</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">TAILWIND</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">REDUX</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">GIT/GITHUB</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">EXPRESS.Js</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">FIREBASE</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">ShadCn-ui</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-    </div>
-
-    <div class="absolute top-0 py-9 animate-marquee2 whitespace-nowrap">
-    <span class="text-2xl lg:text-4xl mx-6">JAVASCRIPT</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">REACT</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">NEXT.Js</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">TAILWIND</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">REDUX</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">GIT/GITHUB</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">EXPRESS.Js</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">FIREBASE</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-        <span class="text-2xl lg:text-4xl mx-6">ShadCn-ui</span>
-        <span class="text-2xl lg:text-4xl mx-6 bg-gray-800 p-3 blur-sm rounded-full ">*</span>
-    </div>
-    </div>
-    </div>
-
-    </div>
+  </div>
+</section>
       
   </>
   );

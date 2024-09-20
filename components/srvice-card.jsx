@@ -1,10 +1,26 @@
-import { inter } from "@/app/layout";
+"use client"
 
-export default function ServiceCard(props) {
-    return (
-        <div className=" bg-gradient-to-br text-gray-200 from-BrandPurple rounded-lg m-7 p-4 flex flex-grow flex-col justify-around max-w-96 lg:min-h-56 hover:bg-gradient-to-b hover:bg-BrandPurple duration-500 lg:hover:scale-125 hover:scale-110 cursor-pointer  ">
-            <h1 className="p-1 lg:text-2xl">{props.title}</h1>
-            <p className=" font-serif font-normal text-xl" style={{padding : 1 + 'em'}} >{props.description}</p>
-        </div>
-    )
-}
+import React, { useState } from 'react';
+
+const ServiceCard = ({ title, description }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <div 
+      className="w-72 h-72 lg:w-[400px] bg-gradient-to-br from-BrandPurple rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <div className="w-full h-full flex flex-col items-center justify-center p-4 transition-all duration-400 ease-in">
+        <h3 className={`text-2xl lg:text-4xl text-center mb-4 transition-all duration-300 ease-in-out ${isHovered ? 'transform -translate-y-3' : ''}`}>
+          {title}
+        </h3>
+        <p className={`text-center text-xl lg:text-2xl font-sans transition-all duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+          {description}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default ServiceCard;
