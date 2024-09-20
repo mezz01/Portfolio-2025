@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-30 min-h-full py-16">
+    <div className="Hero flex flex-col justify-around mx-5 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h1 className="text-4xl md:text-7xl lg:text-8xl" >MOHAMED AMINE MEZZAT</h1>
         <p className="text-lg md:text-4xl mt-2">© Portfolio</p>
