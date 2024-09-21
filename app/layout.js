@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import "./globals.css";
 import { Inter, Climate_Crisis } from 'next/font/google'
+import Footer from "@/components/footer";
 
 export const climate_crisis = Climate_Crisis({
   subsets:['latin'],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body className={climate_crisis.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
