@@ -48,7 +48,7 @@ export default function Home() {
 
   <section className="min-h-screen mt-32 flex flex-col justify-around">
   <div className="flex-grow justify-center items-center align-middle ">
-    <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services :</h1>
+    <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services : <br/><span className="text-sm mt-0 md:text-lg lg:text-xl font-serif mx-3">' Tap or hover to read more '</span></h1>
     <div className="services flex flex-wrap justify-around gap-4 lg:mt-20">
       <ServiceCard title="Front-end development" description="Shipping fast and good looking UI using different technologies and libraries" />
       <ServiceCard title="Back-end development" description="Building robust and scalable server-side solutions" />
