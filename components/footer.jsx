@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return (
-        <footer className="relative Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl" >
+        <footer className="relative z-60 Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl" >
         <h1 className=" text-2xl md:text-4xl lg:text-6xl mb-10 mt-10 ml-6" >Keep in touch !</h1>
 
         <section className="socials absolute bottom-5 ">

@@ -7,6 +7,10 @@
   --foreground: #D9D9D9;
 }
 
+header {
+  position: fixed;
+}
+
 html {
   height: 100vh;
 }
