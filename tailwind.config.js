@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        BrandPurple: "#9C4DC1",
+        BrandPurple: "#FF4F18",
       },
       animation: {
         marquee: 'marquee 25s linear infinite',

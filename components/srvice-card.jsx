@@ -7,7 +7,7 @@ const ServiceCard = ({ title, description }) => {
 
   return (
     <div 
-      className="w-72  h-40 md:h-72 lg:w-[400px] bg-gradient-to-br from-BrandPurple rounded-lg overflow-hidden hover:scale-110 hover:from-black transition-all duration-300 ease-in-out"
+      className="w-72  h-40 md:h-72 lg:w-[400px] bg-gradient-to-br from-BrandPurple rounded-lg cursor-pointer overflow-hidden hover:scale-110 hover:from-black transition-all duration-300 ease-in-out"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
