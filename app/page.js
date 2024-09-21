@@ -9,7 +9,7 @@ export default function Home() {
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
         <h1 className="text-3xl md:text-6xl lg:text-7xl" >MOHAMED AMINE <span className=" text-BrandPurple text-4xl md:text-7xl lg:text-8xl">MEZZAT</span>.</h1>
-        <p className="text-lg md:text-4xl mt-6 font-serif font-normal">A <span className="">front-end developer</span> based in Rabat, Morocco</p>
+        <p className="text-lg md:text-4xl mt-6 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Rabat, Morocco</p>
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
       </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
 
     <section className="Projects mt-16 h-full pt-1 ">
       <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects</h1>
-      <p className="text-sm md:text-lg lg:text-xl font-serif mx-3 ">Worked on plenty of projects in these 5 years from C projects only using the terminal and vim with no ui, to fullstack web applications.</p>
+      <p className="text-sm md:text-lg lg:text-xl font-serif mx-3 ">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
       <p className=" underline mt-2 text-sm md:text-lg lg:text-xl font-serif mx-3 " >- And these are my latest work :</p>  
       
     
