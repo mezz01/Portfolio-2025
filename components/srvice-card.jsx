@@ -15,7 +15,7 @@ const ServiceCard = ({ title, description }) => {
         <h3 className={` text-md md:text-2xl lg:text-4xl text-center mb-4 transition-all duration-300 ease-in-out ${isHovered ? 'transform -translate-y-3' : ''}`}>
           {title}
         </h3>
-        <p className={`text-center md:text-xl lg:text-2xl font-serif transition-all duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+        <p className={`text-center font-thin md:text-xl lg:text-2xl font-serif transition-all duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
           {description}
         </p>
       </div>

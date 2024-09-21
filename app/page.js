@@ -8,13 +8,13 @@ export default function Home() {
     <section className="Hero flex flex-col justify-around mx-5 mt-20 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
-        <h1 className="text-3xl md:text-6xl lg:text-7xl" >MOHAMED AMINE <span className=" text-BrandPurple text-4xl md:text-7xl lg:text-8xl">MEZZAT</span>.</h1>
+        <h1 className="text-4xl font-black md:text-6xl lg:text-9xl" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h1>
         <p className="text-lg md:text-4xl mt-6 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Rabat, Morocco</p>
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
       </div>
 
       <div className=" flex flex-col md:flex-row justify-between items-center md:justify-around">
-        <h2 className="text-2xl grow-0 text-BrandPurple md:text-3xl lg:text-4xl">DEVELOPER</h2>
+        <h2 className="text-3xl font-black grow-0 text-BrandPurple md:text-4xl lg:text-5xl">DEVELOPER</h2>
 
         <svg className="star grow-0 my-32 h-24 w-24 md:h-64 md:w-64 lg:h-72 lg:w-72 rounded-full bg-white saturate-200 blur-3xl" 
         width="393" height="393" viewBox="0 0 393 393" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@ export default function Home() {
 
   <section className="min-h-screen mt-32 flex flex-col justify-around">
   <div className="flex-grow justify-center items-center align-middle ">
-    <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services : <br/><span className="text-sm mt-0 md:text-lg lg:text-xl font-serif mx-3">' Tap or hover to read more '</span></h1>
+    <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services : <br/><span className="text-sm md:text-lg lg:text-xl font-serif mx-1">' Tap or hover to read more '</span></h1>
     <div className="services flex flex-wrap justify-around gap-4 lg:mt-20">
       <ServiceCard title="Front-end development" description="Shipping fast and good looking UI using different technologies and libraries" />
       <ServiceCard title="Back-end development" description="Building robust and scalable server-side solutions" />
@@ -59,54 +59,54 @@ export default function Home() {
   <div className="Tech mt-auto md:mb-16 lg:mb-20">
     <div className="relative flex overflow-x-hidden ">
       <div className="py-9 animate-marquee whitespace-nowrap">
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">JAVASCRIPT</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">REACT</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">NEXT.JS</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">TAILWIND</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">REDUX</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">GIT/GITHUB</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">EXPRESS.JS</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">FIREBASE</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">SHADCN-UI</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">JAVASCRIPT</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">REACT</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">NEXT.JS</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">TAILWIND</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">REDUX</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">GIT/GITHUB</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">EXPRESS.JS</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">FIREBASE</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">SHADCN-UI</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
       </div>
 
       <div className="absolute top-0 py-9 animate-marquee2 whitespace-nowrap">
-      <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">JAVASCRIPT</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">REACT</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">NEXT.JS</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">TAILWIND</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">REDUX</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">GIT/GITHUB</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">EXPRESS.JS</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">FIREBASE</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6">SHADCN-UI</span>
-        <span className="text-md font-serif font-bold md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+      <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">JAVASCRIPT</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">REACT</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">NEXT.JS</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">TAILWIND</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">REDUX</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">GIT/GITHUB</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">EXPRESS.JS</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">FIREBASE</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6">SHADCN-UI</span>
+        <span className="text-md font-serif md:text-lg lg:text-4xl mx-6 bg-gray-400 px-3 blur-lg rounded-full">*</span>
       </div>
     </div>
   </div>
 </section>
 
     <section className="Projects mt-16 h-full pt-1 ">
-      <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects</h1>
-      <p className="text-sm md:text-lg lg:text-xl font-serif mx-3 ">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
-      <p className=" underline mt-2 text-sm md:text-lg lg:text-xl font-serif mx-3 " >- And these are my latest work :</p>  
+      <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects :</h1>
+      <p className="text-sm md:text-lg font-serif mx-4">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
+      <p className=" underline mt-2 text-sm md:text-lg font-serif mx-3 " >- And these are my latest work :</p>  
       
     
     
