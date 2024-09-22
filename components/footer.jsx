@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Footer(){
     return (
         <footer className="flex flex-col relative justify-between z-50 Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl" >
-        <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-10 mt-5 ml-6" >Keep in touch</h1>
+        <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-10 mt-5 ml-6" >Get in touch</h1>
         
 
-        <section className="relative">
+        <section className="relative mb-3">
             <div className="flex flex-row w-full justify-between ">
                 <ul     className={`flex flex-col mb-3 justify-end h-96 w-64 top-0 text-gray-900 font-sans font-light text-sm lg:text-lg cursor-pointer transition-transform duration-500`}>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out"><Link href="/about">About</Link></li>

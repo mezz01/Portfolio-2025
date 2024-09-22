@@ -7,7 +7,7 @@ import Button from "./menu-button";
 export default function Header(){
     return (
         <header className="w-full z-40 flex flex-row  items-center align-middle justify-around">
-            <div className="flex flex-row justify-around bg-BrandPurple px-2 md:px-5 rounded-b-xl border-white transition duration-300">
+            <div className="flex flex-row justify-around bg-BrandPurple px-2 md:px-5 rounded-b-xl border-white ">
                     <Link href="/">
                         <svg className="h-16 w-16 md:w-20 md:h-20 hover:scale-110 transition duration-300 cursor-pointer"
                         width="176" height="186" viewBox="0 0 176 186" fill="none" xmlns="http://www.w3.org/2000/svg">

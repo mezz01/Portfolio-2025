@@ -26,7 +26,7 @@ export default function Button(){
                     <li className="text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out"><Link href="/about">About</Link></li>
                     <li className="text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/">Projects</Link></li>
                     <li className="text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/contact">Contact</Link></li>
-                    <li className="text-2xl mx-4 pt-9 bg-BrandPurple rounded-2xl lg:mx-9 hover:scale-110 hover:underline duration-150  ease-in-out" ><Link href="/"></Link>See my resume</li>
+                    <li className="text-2xl mx-4 pt-9  rounded-2xl lg:mx-9 hover:scale-110 hover:underline duration-150  ease-in-out" ><Link href="/"></Link>See my resume</li>
                 </ul>
             </motion.div>
         </div>
