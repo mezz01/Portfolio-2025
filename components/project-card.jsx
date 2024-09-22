@@ -1,5 +1,7 @@
 export default function ProjectCard({props}) {
-    return {
-        
-    }
+    return (
+        <div className="">
+
+        </div>
+    )
 }
