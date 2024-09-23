@@ -10,7 +10,7 @@ export default function Home() {
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
         <h1 className="text-4xl font-black md:text-6xl lg:text-9xl" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h1>
-        <p className="text-lg md:text-4xl mt-6 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Rabat, Morocco</p>
+        <p className="text-lg md:text-4xl mt-6 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in <span className=" bg-BrandPurple/50 p-1 shadow-lg shadow-BrandPurple/50 rounded-full"> Morocco</span></p>
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
       </div>
 
@@ -109,7 +109,7 @@ export default function Home() {
       <p className="text-sm md:text-lg font-serif mx-4">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
       <p className=" underline mt-2 text-sm md:text-lg font-serif mx-3 " >- And these are my latest work :</p>
       <div className="flex flex-wrap m-5 justify-around items-center">
-        <ProjectCard title="Pindev" description="A platform for beginner developers and designers for inspiration and valuable resources using NextJs and Firebase" imgUrl="/images/pindev.png"/>
+        <ProjectCard title="Pindev" description="A platform made for developers and designers to gather inspiration and valuable resources using NextJs and Firebase" imgUrl="/images/pindev.png"/>
         <ProjectCard title="Namoudaj Ai" description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" imgUrl="/images/namodaj.jpeg"/>
         <ProjectCard title="Survey App" description="A platform to fill surveys, manage them, create reports and more using React.js,TailwindCSS and Firebase " imgUrl="/images/survey.png"/>
       </div>

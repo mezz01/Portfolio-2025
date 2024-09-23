@@ -13,7 +13,7 @@ export default function Button(){
 
     return (
         <div className="flex flex-col">
-            <button  onClick={() => Toggle()} className="font-sans font-light text-lg lg:text-xl cursor-pointer ml-10 md:mt-2 hover:scale-110 hover:underline duration-150  ease-in-out p-4">Menu</button>
+            <button  onClick={() => Toggle()} className="font-sans font-light text-lg lg:text-xl cursor-pointer ml-10 md:mt-2 hover:scale-110 hover:underline duration-150  ease-in-out p-4"> -- Menu --</button>
 
 
             <motion.div
