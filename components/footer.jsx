@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return (
-        <footer className="flex flex-col relative justify-between z-50 Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl" >
+        <footer className="flex flex-col relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl" >
         <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-10 mt-5 ml-6" >Get in touch</h1>
         
 

@@ -1,10 +1,11 @@
+import ProjectCard from "@/components/project-card";
 import ServiceCard from "@/components/srvice-card";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <main className="">
     <section className="Hero flex flex-col justify-around mx-5 mt-20 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
@@ -106,11 +107,14 @@ export default function Home() {
     <section className="Projects mt-16 h-full pt-1 ">
       <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects :</h1>
       <p className="text-sm md:text-lg font-serif mx-4">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
-      <p className=" underline mt-2 text-sm md:text-lg font-serif mx-3 " >- And these are my latest work :</p>  
+      <p className=" underline mt-2 text-sm md:text-lg font-serif mx-3 " >- And these are my latest work :</p>
+      <div className="flex flex-wrap m-5 justify-around items-center">
+        <ProjectCard title="Pindev" description="A platform for beginner developers and designers for inspiration and valuable resources using NextJs and Firebase" imgUrl="/images/pindev.png"/>
+        <ProjectCard title="Namoudaj Ai" description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" imgUrl="/images/namodaj.jpeg"/>
+        <ProjectCard title="Survey App" description="A platform to fill surveys, manage them, create reports and more using React.js,TailwindCSS and Firebase " imgUrl="/images/survey.png"/>
+      </div>
       
-    
-    
     </section>
-  </>
+  </main>
   );
 }
