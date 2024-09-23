@@ -14,7 +14,7 @@ export default function Home() {
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
       </div>
 
-      <div className=" flex flex-col md:flex-row justify-between items-center md:justify-around">
+      <div className=" flex flex-col mt-16 md:mt-0 md:flex-row justify-between items-center md:justify-around">
         <h2 className="text-3xl font-black grow-0 text-BrandPurple md:text-4xl lg:text-5xl">DEVELOPER</h2>
 
         <svg className="star grow-0 my-32 h-24 w-24 md:h-64 md:w-64 lg:h-72 lg:w-72 rounded-full bg-white saturate-200 blur-3xl" 
