@@ -12,12 +12,30 @@ export default function About() {
                     I'm a developer, UI/UX designer and a Photo/Videography enthusiast.
                 </h3>
             </div>
-            <div className="flex justify-start mt-96">
-                <p>Year 0</p>
-                <p> Grew up as a computer kid, had one since birth because my mom wanted to learn Microsoft word and Excel so my dad bought her one, spent a lot of time playing and trying to understand more about what is this windows thing.</p>
-                <div className="relative">
-                    <Image 
-                        
+            <div className="flex justify-start mt-96 ">
+                <p className="text-3xl w-1/6 ">Year 0 - </p>
+                <p className="text-2xl w-1/2 font-serif"> Grew up as a computer kid, had one since birth because my mom wanted to learn Microsoft word and Excel so my dad bought her one, spent a lot of time playing and trying to understand more about what is this windows thing.</p>
+                <div className="relative w-1/2">
+                    <Image
+                        className="  absolute left-0 top-0 object-fill my-3 rounded-2xl mx-2"
+                        src="/images/about-1.jpeg"
+                        width={200}
+                        height={400}
+                        alt="test"
+                    />
+                    <Image
+                        className=" absolute right-0 top-8 object-fill my-3 rounded-2xl mx-2"
+                        src="/images/about-2.jpeg"
+                        width={300}
+                        height={500}
+                        alt="test"
+                    />
+                    <Image
+                        className=" absolute left-28 top-8 object-fill my-3 rounded-2xl mx-2"
+                        src="/images/about-3.jpeg"
+                        width={350}
+                        height={400}
+                        alt="test"
                     />
                 </div>
             </div>
