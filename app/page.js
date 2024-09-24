@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <main className="">
     <section className="Hero flex flex-col justify-around mx-5 mt-20 md:mx-10 lg:mx-30 min-h-full">
-      <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16 gap-3">
+      <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
-        <h1 className="text-4xl font-black md:text-6xl lg:text-9xl" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h1>
-        <p className="text-lg md:text-4xl mt-6 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Morocco.</p>
+        <h1 className="text-4xl font-black md:text-6xl lg:text-9xl lg:-ml-2 lg:-mt-5" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h1>
+        <p className="text-lg md:text-4xl mt-5 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Morocco.</p>
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
-        <Link href="/about" className=" w-fit  bg-BrandPurple/50 p-1 shadow-lg shadow-BrandPurple/50 rounded-full text-xl"> See more about me .</Link>
+        <Link href="/about" className=" w-fit  bg-BrandPurple/50 p-1 shadow-lg shadow-BrandPurple/50 rounded-lg text-sm md:text-xl mt-5 hover:scale-110 duration-100 ease-in">More about me</Link>
       </div>
 
       <div className=" flex flex-col mt-16 md:mt-0 md:flex-row justify-between items-center md:justify-around">
