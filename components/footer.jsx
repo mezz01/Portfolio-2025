@@ -2,27 +2,27 @@ import Link from "next/link";
 
 export default function Footer(){
     return (
-        <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-hidden" >        
+        <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-x-hidden overflow-y-scroll" >        
             <section className="flex h-1/3 flex-col gap-3 text-xs md:text-xl  text-black ml-5">
-            <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-5 mt-5 ml-6" >Get in touch</h1>
-            <h3 className="font-bold text-lg md:text-2xl">If you're interested in any of these topics, don't hesitate to contact me</h3>
-                <div className="flex flex-wrap gap-3">
-                <p className="border-black p-1 rounded-2xl border">Front-end development</p>
-                <p  className="border-black p-1 rounded-2xl border">Backend development</p>
-                <p  className="border-black p-1 rounded-2xl border">Full-Stack development</p>
-                <p  className="border-black p-1 rounded-2xl border">Web design & animation</p>
-                <p  className="border-black p-1 rounded-2xl border">Employment</p>
-                <p  className="border-black p-1 rounded-2xl border">JamStack developer</p>
-                <p  className="border-black p-1 rounded-2xl border">For fun</p>
+            <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6 underline decoration-BrandPurple" >Get in touch</h1>
+            <h3 className="font-bold text-lg md:text-2xl ml-6 underline ">If you're interested in any of these topics :</h3>
+                <div className="flex flex-wrap gap-3 lg:gap-5 items-center justify-center lg:text-4xl w-full">
+                <p className="border-black p-1 rounded-2xl border bg-white">Front-end development</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">Backend development</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">Full-Stack development</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">Web design & animation</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">Employment</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">JamStack developer</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">For fun</p>
                 </div>
-                
             </section>
 
 
-        <section className="flex flex-col justify-between mb-3 border-t-4 border-black h-2/3">
-            <div className="relative flex flex-col items-center justify-center text-black ">
-                <h1 className="text-2xl md:text-4xl lg:text-6xl">Contact me on :<span className="border border-black p-2 ml-4">mezzat.amine@gmail.com</span></h1>
-                <h1 className="text-2xl md:text-4xl lg:text-6xl">Or in my number :<span className="border border-black p-2 ml-4">06 52 86 21 01</span></h1>
+        <section className="flex flex-col justify-between mb-3 mt-10 h-2/3">
+            <div className="relative flex flex-col gap-5 lg:gap-8 items-center justify-center  mt-10 text-black ">
+                <h3 className="font-bold text-lg md:text-2xl ml-6 underline">don't hesitate to contact me</h3>
+                <h1 className="text-xl md:text-2xl lg:text-3xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">mezzat.amine@gmail.com</h1>
+                <h1 className="text-xl md:text-2xl lg:text-3xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">06 52 86 21 01</h1>
 
             </div>
 
