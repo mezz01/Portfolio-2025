@@ -5,7 +5,7 @@ export default function Footer(){
         <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-hidden" >        
             <section className="flex h-1/3 flex-col gap-3 text-xs md:text-xl  text-black ml-5">
             <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-5 mt-5 ml-6" >Get in touch</h1>
-            <h3 className="font-bold text-lg md:text-2xl">If you're interested in any of these, don't hesitate to contact me</h3>
+            <h3 className="font-bold text-lg md:text-2xl">If you're interested in any of these topics, don't hesitate to contact me</h3>
                 <div className="flex flex-wrap gap-3">
                 <p className="border-black p-1 rounded-2xl border">Front-end development</p>
                 <p  className="border-black p-1 rounded-2xl border">Backend development</p>
@@ -21,6 +21,8 @@ export default function Footer(){
 
         <section className="flex flex-col mb-3 border-t-4 border-black h-2/3">
             <div>
+                <h1>Contact me on :<span>mezzat.amine@gmail.com</span></h1>
+                <h1>Or in my number :<span>06 52 86 21 01</span></h1>
 
             </div>
 
