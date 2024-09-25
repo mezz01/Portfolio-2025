@@ -19,10 +19,10 @@ export default function Footer(){
             </section>
 
 
-        <section className="flex flex-col mb-3 border-t-4 border-black h-2/3">
-            <div>
-                <h1>Contact me on :<span>mezzat.amine@gmail.com</span></h1>
-                <h1>Or in my number :<span>06 52 86 21 01</span></h1>
+        <section className="flex flex-col justify-between mb-3 border-t-4 border-black h-2/3">
+            <div className="relative flex flex-col items-center justify-center text-black ">
+                <h1 className="text-2xl md:text-4xl lg:text-6xl">Contact me on :<span className="border border-black p-2 ml-4">mezzat.amine@gmail.com</span></h1>
+                <h1 className="text-2xl md:text-4xl lg:text-6xl">Or in my number :<span className="border border-black p-2 ml-4">06 52 86 21 01</span></h1>
 
             </div>
 
