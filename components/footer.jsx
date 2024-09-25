@@ -2,18 +2,35 @@ import Link from "next/link";
 
 export default function Footer(){
     return (
-        <footer className="flex flex-col relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl" >
-        <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-10 mt-5 ml-6" >Get in touch</h1>
-        
+        <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-hidden" >        
+            <section className="flex h-1/3 flex-col gap-3 text-xs md:text-xl  text-black ml-5">
+            <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-5 mt-5 ml-6" >Get in touch</h1>
+            <h3 className="font-bold text-lg md:text-2xl">If you're interested in any of these, don't hesitate to contact me</h3>
+                <div className="flex flex-wrap gap-3">
+                <p className="border-black p-1 rounded-2xl border">Front-end development</p>
+                <p  className="border-black p-1 rounded-2xl border">Backend development</p>
+                <p  className="border-black p-1 rounded-2xl border">Full-Stack development</p>
+                <p  className="border-black p-1 rounded-2xl border">Web design & animation</p>
+                <p  className="border-black p-1 rounded-2xl border">Employment</p>
+                <p  className="border-black p-1 rounded-2xl border">JamStack developer</p>
+                <p  className="border-black p-1 rounded-2xl border">For fun</p>
+                </div>
+                
+            </section>
 
-        <section className="relative mb-3">
+
+        <section className="flex flex-col mb-3 border-t-4 border-black h-2/3">
+            <div>
+
+            </div>
+
             <div className="flex flex-row w-full justify-between ">
-                <ul     className={`flex flex-col mb-3 justify-end h-96 w-64 top-0 text-gray-900 font-sans font-light text-sm lg:text-lg cursor-pointer transition-transform duration-500`}>
+                <ul     className={`flex flex-col justify-end h-full text-gray-900 font-sans font-light text-sm lg:text-lg cursor-pointer transition-transform duration-500`}>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out"><Link href="/about">About</Link></li>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/">Projects</Link></li>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/contact">Contact</Link></li>
                 </ul>
-            <ul className="absolute bottom-3 right-3 justify-end items-center md:text-xl">
+            <ul className="flex flex-end h-full justify-end items-end md:text-xl">
                 <li className="m-2 hover:scale-105"><Link href="">
                 <svg className=" h-7 w-7 md:h-10 md:w-10"
                 xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
