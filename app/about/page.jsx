@@ -24,7 +24,7 @@ export default function About() {
                         alt="test" 
                     />
             </div>
-            <div className="vertical-line border-l-2 h-[600px] ml-60 pl-10 my-5"> Scroll down</div>
+            <div className="vertical-line border-l-2 h-[600px] ml-48 md:ml-60 pl-10 my-5"> Scroll down</div>
             <div className="flex flex-col justify-center items-center lg:items-start h-full gap-5 lg:flex-row  mt-20 mx-6 mb-20">
                 <p className="text-2xl underline decoration-BrandPurple font-semibold lg:w-1/12 grow-0" >2019</p>
                     <Image

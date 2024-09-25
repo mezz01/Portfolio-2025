@@ -25,7 +25,7 @@ export default function Button(){
                     <li><Link href="/about"><button  className="text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" onClick={() => {Toggle()}}>About</button></Link></li>
                     <li><Link href="/contact"><button  className="text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" onClick={() => {Toggle()}}>Contact</button></Link></li>
                     <li><Link href="/projects"><button  className="text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" onClick={() => {Toggle()}}>Projects</button></Link></li>
-                    <li><Link href="/about"><button  className="text-2xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:underline duration-150  ease-in-out" onClick={() => {Toggle()}}>See my resume</button></Link></li>
+                    <li><Link href="/about"><button  className="text-2xl mx-4 pt-4 mt-10 lg:mx-9 hover:scale-110 hover:underline duration-150  ease-in-out" onClick={() => {Toggle()}}>See my resume</button></Link></li>
                 </ul>
             </motion.div>
         </div>
