@@ -28,7 +28,7 @@ export default function Footer(){
 
                 <div className="relative flex flex-col gap-5 lg:gap-8 items-center justify-center text-black ">
                 <h3 className="font-bold text-sm md:text-xl ml-6 underline">don't hesitate to contact me 'click on the email'</h3>
-                <div className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif hover:scale-110 duration-200 transition-transform bg-BrandPurple/70"><a className="" href="mailto:mezzatamine2002@gmail.com">mezzat.amine@gmail.com</a></div>
+                <a className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-BrandPurple/70 font-serif hover:scale-110 duration-200 transition-transform" href="mailto:mezzatamine2002@gmail.com">mezzat.amine@gmail.com</a>
                 <h1 className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">06 52 86 21 01</h1>
 
                 </div>
