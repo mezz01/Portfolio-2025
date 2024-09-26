@@ -7,13 +7,13 @@ export default function Footer(){
             <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6" >Get in touch</h1>
             <h3 className="font-bold text-sm md:text-xl ml-6 underline ">If you're interested in any of these topics :</h3>
                 <div className="flex flex-wrap gap-3 lg:gap-5 items-center justify-center lg:text-4xl w-full">
-                <p className="border-black p-1 md:p-2 rounded-2xl border bg-white">Front-end development</p>
-                <p  className="border-black p-1 md:p-2 rounded-2xl border bg-white">Backend development</p>
-                <p  className="border-black p-1 md:p-2 rounded-2xl border bg-white">Full-Stack development</p>
-                <p  className="border-black p-1 md:p-2 rounded-2xl border bg-white">Web design & animation</p>
-                <p  className="border-black p-1 md:p-2 rounded-2xl border bg-white">Employment</p>
-                <p  className="border-black p-1 md:p-2 rounded-2xl border bg-white">JamStack development</p>
-                <p  className="border-black p-1 md:p-2 rounded-2xl border bg-white">Comedy</p>
+                <p className="border-black p-1 md:p-3 rounded-2xl border bg-white">Front-end development</p>
+                <p  className="border-black p-1 md:p-3 rounded-2xl border bg-white">Backend development</p>
+                <p  className="border-black p-1 md:p-3 rounded-2xl border bg-white">Full-Stack development</p>
+                <p  className="border-black p-1 md:p-3 rounded-2xl border bg-white">Web design & animation</p>
+                <p  className="border-black p-1 md:p-3 rounded-2xl border bg-white">Employment</p>
+                <p  className="border-black p-1 md:p-3 rounded-2xl border bg-white">JamStack development</p>
+                <p  className="border-black p-1 md:p-3 rounded-2xl border bg-white">Comedy</p>
                 </div>
             </section>
 
