@@ -4,35 +4,38 @@ export default function Footer(){
     return (
         <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-x-hidden overflow-y-scroll" >        
             <section className="flex h-1/3 flex-col gap-3 text-xs md:text-xl  text-black ml-5">
-            <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6 underline decoration-BrandPurple" >Get in touch</h1>
-            <h3 className="font-bold text-lg md:text-2xl ml-6 underline ">If you're interested in any of these topics :</h3>
+            <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6" >Get in touch</h1>
+            <h3 className="font-bold text-sm md:text-xl ml-6 underline ">If you're interested in any of these topics :</h3>
                 <div className="flex flex-wrap gap-3 lg:gap-5 items-center justify-center lg:text-4xl w-full">
                 <p className="border-black p-1 rounded-2xl border bg-white">Front-end development</p>
                 <p  className="border-black p-1 rounded-2xl border bg-white">Backend development</p>
                 <p  className="border-black p-1 rounded-2xl border bg-white">Full-Stack development</p>
                 <p  className="border-black p-1 rounded-2xl border bg-white">Web design & animation</p>
                 <p  className="border-black p-1 rounded-2xl border bg-white">Employment</p>
-                <p  className="border-black p-1 rounded-2xl border bg-white">JamStack developer</p>
-                <p  className="border-black p-1 rounded-2xl border bg-white">For fun</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">JamStack development</p>
+                <p  className="border-black p-1 rounded-2xl border bg-white">Comedy</p>
                 </div>
             </section>
 
 
-        <section className="flex flex-col justify-between mb-3 mt-10 h-2/3">
-            <div className="relative flex flex-col gap-5 lg:gap-8 items-center justify-center  mt-10 text-black ">
-                <h3 className="font-bold text-lg md:text-2xl ml-6 underline">don't hesitate to contact me</h3>
-                <h1 className="text-xl md:text-2xl lg:text-3xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">mezzat.amine@gmail.com</h1>
-                <h1 className="text-xl md:text-2xl lg:text-3xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">06 52 86 21 01</h1>
-
-            </div>
-
-            <div className="flex flex-row w-full justify-between ">
-                <ul     className={`flex flex-col justify-end h-full text-gray-900 font-sans font-light text-sm lg:text-lg cursor-pointer transition-transform duration-500`}>
+        <section className="flex flex-col justify-around items-end mb-3 mt-10">
+            <div className="flex flex-col justify-around gap-5 md:flex-row w-full md:justify-between ">
+                <ul     className={`md:flex md:flex-col hidden justify-end h-full text-gray-900 font-sans font-light text-sm lg:text-lg cursor-pointer transition-transform duration-500`}>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out"><Link href="/about">About</Link></li>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/">Projects</Link></li>
-                    <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/contact">Contact</Link></li>
+                    <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 text-gray-900/60" ><Link href="/">Blog</Link></li>
                 </ul>
-            <ul className="flex flex-end h-full justify-end items-end md:text-xl">
+
+                <div className="relative flex flex-col gap-5 lg:gap-8 items-center justify-center text-black ">
+                <h3 className="font-bold text-sm md:text-xl ml-6 underline">don't hesitate to contact me 'click on the email'</h3>
+                <div className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif hover:scale-110 duration-200 transition-transform bg-BrandPurple/80"><a className="" href="mailto:mezzatamine2002@gmail.com">mezzat.amine@gmail.com</a></div>
+                <h1 className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">06 52 86 21 01</h1>
+
+                </div>
+
+
+
+            <ul className="flex flex-end h-full justify-center md:justify-end items-center md:items-end md:text-xl">
                 <li className="m-2 hover:scale-105"><Link href="">
                 <svg className=" h-7 w-7 md:h-10 md:w-10"
                 xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
