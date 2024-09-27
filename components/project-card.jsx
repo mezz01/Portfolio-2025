@@ -14,7 +14,6 @@ export default function ProjectCard({title, description, imgUrl}) {
             <div className="p-5">
                 <h1 className="text-lg md:text-2xl mb-4 w-fit font-bold border border-white p-2 px-3 rounded-full">{title}</h1>
                 <p className="text-sm md:text-lg font-serif ">{description}</p>
-                <div className="flex justify-end mt-4 mr-5 " ><Link className="hover:scale-110 hover:translate-x-2 duration-300 " href="/">-- See more --</Link></div>
             </div>
         </div>
     )

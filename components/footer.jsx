@@ -22,8 +22,8 @@ export default function Footer(){
             <div className="flex flex-col justify-around gap-5 md:flex-row w-full md:justify-between ">
                 <ul     className={`md:flex md:flex-col hidden justify-end h-full text-gray-900 font-sans font-light text-sm lg:text-lg cursor-pointer transition-transform duration-500`}>
                     <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out"><Link href="/about">About</Link></li>
-                    <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 hover:scale-110 hover:line-through duration-150  ease-in-out" ><Link href="/">Projects</Link></li>
-                    <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 text-gray-900/60" ><Link href="/">Blog</Link></li>
+                    <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 text-gray-900/60" ><Link href="/projects">Projects</Link></li>
+                    <li className="text-4xl md:text-6xl mx-4 pt-4 lg:mx-9 text-gray-900/60" ><Link href="/blog">Blog</Link></li>
                 </ul>
 
                 <div className="relative flex flex-col gap-5 lg:gap-8 items-center justify-center text-black ">

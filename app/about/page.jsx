@@ -49,9 +49,9 @@ export default function About() {
                         alt="test" 
                     />
             </div>
-            <hr className="mx-20"/>
-            <div className="flex justify-start mt-96">
-                <p className="text-2xl md:text-4xl">
+            <div className="vertical-line border-l-2 h-[800px] ml-48 md:ml-60 pl-10 my-20 pt-28 text-white/50 border-white/50"> Scroll down</div>
+            <div className="flex justify-center mt-10">
+                <p className="text-2xl md:text-4xl font-serif">
                     A creative fullstack web developer was born and hopes for more achievements in his life.
                 </p>
             </div>
