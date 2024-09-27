@@ -35,9 +35,12 @@ export default function About() {
                     />
                 <p className="md:text-2xl lg:w-1/2 font-serif"> Fast forward 18 years, I finished highschool in physics and then pursued this programming thing in college for 2 years. <br/>Then Got my diploma as a fullstack developer graduate in 2021 </p>
             </div>
-            <hr className="mx-20"/>
+            <div className="vertical-line border-l-2 h-[800px] ml-48 md:ml-60 pl-10 my-20 pt-28 text-white/50 border-white/50"> Scroll down</div>
+
             <div className="flex flex-col justify-center h-full gap-5 lg:flex-row  mt-20 mx-6 mb-20">
-                <p className="md:text-2xl lg:w-1/2 font-serif"> Grew up as a computer kid, had one since birth because my mom wanted to learn Microsoft word and Excel so my dad bought her one. <br/>So I spent a lot of time playing and trying to understand more about what is this windows thing.</p>
+                <p className="md:text-2xl lg:w-1/2 font-serif"> Started my journey in 1337'42school' after succeeding in the piscine of 2021 which was a set of C and linux commands exams and exercises for a whole month.
+                    I learned all valuable things in my journey at 1337KH, from low level programming in C and using different algorithms and Data structures, to Git and linux command lines.
+                    But more importantly team work and peerLearning, using only projects and google as our friends 'which were like family there'.</p>
                     <Image
                         className="object-fill my-3 rounded-2xl mx-2"
                         src="/images/about.png"
@@ -45,13 +48,6 @@ export default function About() {
                         height={600}
                         alt="test" 
                     />
-            </div>
-            <hr className="mx-20"/>
-            <div className="flex justify-start">
-                <p>Started my journey in 1337'42school' after succeeding in the piscine of 2021 which was a set of C and linux commands exams and exercises for a whole month.
-                    I learned all valuable things in my journey at 1337KH, from low level programming in C and using different algorithms and Data structures, to Git and linux command lines.
-                    But more importantly team work and peerLearning, using only projects and google as our friends 'which were like family there'.
-                </p>
             </div>
             <hr className="mx-20"/>
             <div className="flex justify-start mt-96">
