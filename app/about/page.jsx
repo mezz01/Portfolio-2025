@@ -43,7 +43,7 @@ export default function About() {
                     But more importantly team work and peerLearning, using only projects and google as our friends 'which were like family there'.</p>
                     <Image
                         className="object-fill my-3 rounded-2xl mx-2"
-                        src="/images/about.png"
+                        src="/images/1337.png"
                         width={600}
                         height={600}
                         alt="test" 
@@ -51,7 +51,7 @@ export default function About() {
             </div>
             <hr className="mx-20"/>
             <div className="flex justify-start mt-96">
-                <p>
+                <p className="text-2xl md:text-4xl">
                     A creative fullstack web developer was born and hopes for more achievements in his life.
                 </p>
             </div>
