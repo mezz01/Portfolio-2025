@@ -2,6 +2,7 @@ import Header from "@/components/header";
 import "./globals.css";
 import { Inter, Climate_Crisis } from 'next/font/google'
 import Footer from "@/components/footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Mezzat Mohamed Amine",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-CZK7TCPXHJ" />
     </html>
   );
 }
