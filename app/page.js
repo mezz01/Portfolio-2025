@@ -6,10 +6,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="">
+    <link rel="canonical" href="https://mezzat.me" />
     <section className="Hero flex flex-col justify-around mx-5 mt-20 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
-        <h1 className="text-4xl font-black md:text-6xl lg:text-9xl lg:-ml-2 lg:-mt-5" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h1>
+        <h2 className="text-4xl font-black md:text-6xl lg:text-9xl lg:-ml-2 lg:-mt-5" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h2>
         <p className="text-lg md:text-4xl mt-5 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Morocco.</p>
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
         <Link href="/about" className=" w-fit  bg-BrandPurple/50 p-1 shadow-lg shadow-BrandPurple/50 rounded-lg text-sm md:text-xl mt-5 hover:scale-110 duration-100 ease-in">More about me</Link>
@@ -50,7 +51,7 @@ export default function Home() {
 
   <section className="min-h-screen mt-32 flex flex-col justify-around">
   <div className="flex-grow justify-center items-center align-middle ">
-    <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services : <br/><span className="text-sm md:text-lg lg:text-xl font-serif mx-1">' Tap or hover to read more '</span></h1>
+    <h2 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5">Services : <br/><span className="text-sm md:text-lg lg:text-xl font-serif mx-1">' Tap or hover to read more '</span></h2>
     <div className="services flex flex-wrap justify-around gap-4 lg:mt-20">
       <ServiceCard title="Front-end development" description="Shipping fast and good looking UI using different technologies and libraries" />
       <ServiceCard title="Back-end development" description="Building robust and scalable server-side solutions" />
@@ -106,7 +107,7 @@ export default function Home() {
 </section>
 
     <section className="Projects mt-16 h-full pt-1 ">
-      <h1 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects :</h1>
+      <h2 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects :</h2>
       <p className="text-sm md:text-lg font-serif mx-4">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
       <p className=" underline mt-2 text-sm md:text-lg font-serif mx-3 " >- And these are my latest work :</p>
       <div className="flex flex-wrap m-5 justify-around items-center">
