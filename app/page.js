@@ -113,6 +113,7 @@ export default function Home() {
         <ProjectCard title="Pindev" description="A platform made for developers and designers to gather inspiration and valuable resources using NextJs and Firebase" imgUrl="/images/pindev.png"/>
         <ProjectCard title="Namoudaj Ai" description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" imgUrl="/images/namodaj.jpeg"/>
         <ProjectCard title="Survey App" description="A platform to fill surveys, manage them, create reports and more using React.js,TailwindCSS and Firebase " imgUrl="/images/survey.png"/>
+        <ProjectCard title="Agency V5 Homepage" description="A frensh marketing agency website built with Astrojs and tailored for fast indexing and great SEO" imgUrl="/images/agencev5.png"/>
       </div>
       
     </section>
