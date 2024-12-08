@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
     return(
     <main className="">
-    <link rel="canonical" href="https://mezzat.me/about" />
+    <link rel="canonical" href="https://www.mezzat.me/about" />
         <section className="h-full" >
             <div className="h-full flex m-5 mt-24 flex-center flex-col mb-5">
                 <h1 className="text-2xl underline decoration-4 lg:decoration-8 decoration-BrandPurple font-black md:text-4xl lg:text-6xl">
