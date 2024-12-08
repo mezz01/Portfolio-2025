@@ -6,12 +6,12 @@ export default function About() {
     <link rel="canonical" href="https://www.mezzat.me/about" />
         <section className="h-full" >
             <div className="h-full flex m-5 mt-24 flex-center flex-col mb-5">
-                <h1 className="text-2xl underline decoration-4 lg:decoration-8 decoration-BrandPurple font-black md:text-4xl lg:text-6xl">
+                <h3 className="text-2xl underline decoration-4 lg:decoration-8 decoration-BrandPurple font-black md:text-4xl lg:text-6xl">
                     About me<span className="text-BrandPurple no-underline">.</span>
-                </h1>
-                <h3 className="text-lg font-serif md:text-xl lg:text-3xl mt-3 md:mt-10">
-                    I'm a developer, UI/UX designer and a Photo/Videography enthusiast.
                 </h3>
+                <h1 className="text-lg font-serif md:text-xl lg:text-3xl mt-3 md:mt-10">
+                    I'm a developer, UI/UX designer and a Photo/Videography enthusiast.
+                </h1>
             </div>
             <div className="vertical-line border-l-2 h-[800px] ml-48 md:ml-60 pl-10 my-20 pt-28 text-white/50 border-white/50"> Scroll down</div>
 

@@ -4,7 +4,7 @@ export default function Footer(){
     return (
         <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-x-hidden overflow-y-scroll" >        
             <section className="flex h-1/3 flex-col gap-3 text-xs md:text-xl  text-black ml-5">
-            <h1 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6" >Get in touch</h1>
+            <h2 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6" >Get in touch</h2>
             <h3 className="font-bold text-sm md:text-xl ml-6 underline ">If you're interested in any of these topics :</h3>
                 <div className="flex flex-wrap gap-3 lg:gap-5 items-center justify-center lg:text-4xl w-full">
                 <p className="border-black p-1 md:p-3 rounded-2xl border bg-white">Front-end development</p>
