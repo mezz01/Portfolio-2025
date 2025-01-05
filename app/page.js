@@ -195,12 +195,12 @@ export default function Home() {
           className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
             !canScrollLeft 
               ? 'opacity-50 cursor-not-allowed' 
-              : 'hover:border-brandOrange hover:text-brandOrange hover:bg-gray-50'
+              : 'hover:border-brandOrange  hover:bg-gray-50'
           }`}
           disabled={!canScrollLeft}
           aria-label="Scroll left"
         >
-          <ChevronLeft className="w-6 h-6 text-gray-200" />
+          <ChevronLeft className="w-6 h-6 text-gray-200 hover:text-brandOrange " />
         </button>
 
         <button
@@ -208,12 +208,12 @@ export default function Home() {
           className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
             !canScrollRight 
               ? 'opacity-50 cursor-not-allowed' 
-              : 'hover:border-brandOrange hover:text-brandOrange hover:bg-gray-50'
+              : 'hover:border-brandOrange  hover:bg-gray-50'
           }`}
           disabled={!canScrollRight}
           aria-label="Scroll right"
         >
-          <ChevronRight className="w-6 h-6 text-gray-200" />
+          <ChevronRight className="w-6 h-6 text-gray-200 hover:text-brandOrange" />
         </button>
       </div>
     </div>
