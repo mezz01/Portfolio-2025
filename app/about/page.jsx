@@ -6,8 +6,8 @@ export default function About() {
     <link rel="canonical" href="https://www.mezzat.me/about" />
         <section className="h-full" >
             <div className="h-full flex m-5 mt-24 flex-center flex-col mb-5">
-                <h3 className="text-2xl underline decoration-4 lg:decoration-8 decoration-BrandPurple font-black md:text-4xl lg:text-6xl">
-                    About me<span className="text-BrandPurple no-underline">.</span>
+                <h3 className="text-2xl underline decoration-4 lg:decoration-8 decoration-brandOrange font-black md:text-4xl lg:text-6xl">
+                    About me<span className="text-brandOrange no-underline">.</span>
                 </h3>
                 <h1 className="text-lg font-serif md:text-xl lg:text-3xl mt-3 md:mt-10">
                     I'm a developer, UI/UX designer and a Photo/Videography enthusiast.

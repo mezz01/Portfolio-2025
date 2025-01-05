@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return (
-        <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-BrandPurple  rounded-t-3xl overflow-x-hidden overflow-y-scroll" >        
+        <footer className="flex flex-col w-full relative z-50 justify-between Projects mt-16 h-full pt-1 bg-slate-200 text-brandOrange  rounded-t-3xl overflow-x-hidden overflow-y-scroll" >        
             <section className="flex h-1/3 flex-col gap-3 text-xs md:text-xl  text-black ml-5">
             <h2 className="font-black text-4xl md:text-6xl lg:text-8xl mb-4 lg:mb-6 mt-2 ml-6" >Get in touch</h2>
             <h3 className="font-bold text-sm md:text-xl ml-6 underline ">If you're interested in any of these topics :</h3>
@@ -28,7 +28,7 @@ export default function Footer(){
 
                 <div className="relative flex flex-col gap-5 lg:gap-8 items-center justify-center text-black ">
                 <h3 className="font-bold text-sm md:text-xl ml-6 underline">don't hesitate to contact me 'click on the email'</h3>
-                <a className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-BrandPurple/70 font-serif hover:scale-110 duration-200 transition-transform" href="mailto:med.amine.mezzat@gmail.com">med.amine.mezzat@gmail.com</a>
+                <a className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-brandOrange/70 font-serif hover:scale-110 duration-200 transition-transform" href="mailto:med.amine.mezzat@gmail.com">med.amine.mezzat@gmail.com</a>
                 <h1 className="text-sm md:text-xl lg:text-2xl font-thin border border-black p-2 ml-4 rounded-3xl bg-white font-serif">06 52 86 21 01</h1>
 
                 </div>

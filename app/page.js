@@ -41,14 +41,14 @@ export default function Home() {
     <section className="Hero flex flex-col justify-around mx-5 mt-20 md:mx-10 lg:mx-30 min-h-full">
       <div className=" flex flex-col lg:flex-col w-full md:ml-9 lg:ml-16">
         <h2 className="text-lg md:text-xl lg:text-4xl font-serif">Hi I'm</h2>
-        <h1 className="text-4xl font-black md:text-6xl lg:text-9xl lg:-ml-2 lg:-mt-5" >MOHAMED AMINE <br/><span className=" text-BrandPurple">MEZZAT</span>.</h1>
+        <h1 className="text-4xl font-black md:text-6xl lg:text-9xl lg:-ml-2 lg:-mt-5" >MOHAMED AMINE <br/><span className=" text-brandOrange">MEZZAT</span>.</h1>
         <p className="text-lg md:text-4xl mt-5 font-serif font-normal">A <span className=" line-through">front-end developer</span> based in Morocco.</p>
         <p className="text-sm md:text-xl font-sans font-thin">2025 © Portfolio</p>
-        <Link href="/about" className=" w-fit  bg-BrandPurple/50 p-1 shadow-lg shadow-BrandPurple/50 rounded-lg text-sm md:text-xl mt-5 hover:scale-110 duration-100 ease-in">More about me</Link>
+        <Link href="/about" className=" w-fit  bg-brandOrange/50 p-1 shadow-lg shadow-brandOrange/50 rounded-lg text-sm md:text-xl mt-5 hover:scale-110 duration-100 ease-in">More about me</Link>
       </div>
 
       <div className=" flex flex-col mt-16 md:mt-0 md:flex-row justify-between items-center md:justify-around">
-        <h2 className="text-3xl font-black grow-0 text-BrandPurple md:text-4xl lg:text-5xl">DEVELOPER</h2>
+        <h2 className="text-3xl font-black grow-0 text-brandOrange md:text-4xl lg:text-5xl">DEVELOPER</h2>
 
         <svg className="star grow-0 my-32 h-24 w-24 md:h-64 md:w-64 lg:h-72 lg:w-72 rounded-full bg-white saturate-200 blur-3xl" 
         width="393" height="393" viewBox="0 0 393 393" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -195,7 +195,7 @@ export default function Home() {
           className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
             !canScrollLeft 
               ? 'opacity-50 cursor-not-allowed' 
-              : 'hover:border-BrandPurple hover:bg-gray-50'
+              : 'hover:border-brandOrange hover:bg-gray-50'
           }`}
           disabled={!canScrollLeft}
           aria-label="Scroll left"
@@ -208,7 +208,7 @@ export default function Home() {
           className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
             !canScrollRight 
               ? 'opacity-50 cursor-not-allowed' 
-              : 'hover:border-BrandPurple hover:bg-gray-50'
+              : 'hover:border-brandOrange hover:bg-gray-50'
           }`}
           disabled={!canScrollRight}
           aria-label="Scroll right"
