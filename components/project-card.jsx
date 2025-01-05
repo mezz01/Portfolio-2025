@@ -23,7 +23,7 @@ const ProjectCard = ({ title, description, imgUrl, link, site}) => {
           <div className="mt-10">
           {
             site &&
-            <Link className="text-white p-3 border border-white rounded-xl hover:scale-110 transition-transform hover:text-gray-400 hover:border-gray-400 " href={link}>
+            <Link className="text-white p-3 border border-white rounded-xl hover:scale-110 transition-transform hover:text-BrandPurple hover:border-BrandPurple " href={link}>
               View Site
             </Link>
           }
