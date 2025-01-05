@@ -148,6 +148,23 @@ export default function Home() {
         onScroll={checkScroll}
         className="flex flex-nowrap overflow-x-auto gap-6 scroll-smooth no-scrollbar mb-6"
       >
+        
+        <ProjectCard 
+          title="Universelle - Real estate agency website" 
+          description="A real estate business that needed a redesign and SEO/Loading speed optimization - Astro/wordpress Headless CMS" 
+          imgUrl="/images/universelle.png"
+        />
+
+        <ProjectCard 
+          title="Ranket - SEO agency" 
+          description="An optimized website for all their needs, from SEO to high speed using Astro" 
+          imgUrl="/images/ranket.png"
+        />
+        <ProjectCard 
+          title="HDiptv " 
+          description="An iptv Landing page with a great design and optimization for an iptv company based in UK" 
+          imgUrl="/images/iptv.png"
+        />
         <ProjectCard 
           title="Pindev" 
           description="A platform made for developers and designers to gather inspiration and valuable resources using NextJs and Firebase" 
@@ -158,11 +175,7 @@ export default function Home() {
           description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" 
           imgUrl="/images/namodaj.jpeg"
         />
-        <ProjectCard 
-          title="Survey App" 
-          description="A platform to fill surveys, manage them, create reports and more using React.js,TailwindCSS and Firebase" 
-          imgUrl="/images/survey.png"
-        />
+        
       </div>
 
       {/* Navigation Buttons */}
