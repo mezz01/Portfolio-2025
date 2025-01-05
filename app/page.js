@@ -1,9 +1,40 @@
+'use client'
+
 import ProjectCard from "@/components/project-card";
 import ServiceCard from "@/components/srvice-card";
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useRef } from "react";
 
 export default function Home() {
+
+  
+    const scrollContainerRef = useRef(null);
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(true);
+  
+    const checkScroll = () => {
+      const container = scrollContainerRef.current;
+      if (container) {
+        setCanScrollLeft(container.scrollLeft > 0);
+        setCanScrollRight(
+          container.scrollLeft < container.scrollWidth - container.clientWidth
+        );
+      }
+    };
+  
+    const scroll = (direction) => {
+      const container = scrollContainerRef.current;
+      if (container) {
+        const scrollAmount = direction === 'left' ? -400 : 400;
+        container.scrollBy({
+          left: scrollAmount,
+          behavior: 'smooth'
+        });
+      }
+    };
+
   return (
     <main className="">
     <link rel="canonical" href="https://www.mezzat.me" />
@@ -110,12 +141,59 @@ export default function Home() {
       <h2 className=" text-2xl md:text-4xl lg:text-6xl ml-4 mb-10 mt-5" >Recent Projects :</h2>
       <p className="text-sm md:text-lg font-serif mx-4">Worked on plenty of projects in these 5 years all from hard low level C projects only using terminals and vim with no ui, to complete well functioning fullstack web applications.</p>
       <p className=" underline mt-2 text-sm md:text-lg font-serif mx-3 " >- And these are my latest work :</p>
-      <div className="flex flex-wrap m-5 justify-around items-center">
-        <ProjectCard title="Pindev" description="A platform made for developers and designers to gather inspiration and valuable resources using NextJs and Firebase" imgUrl="/images/pindev.png"/>
-        <ProjectCard title="Namoudaj Ai" description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" imgUrl="/images/namodaj.jpeg"/>
-        <ProjectCard title="Survey App" description="A platform to fill surveys, manage them, create reports and more using React.js,TailwindCSS and Firebase " imgUrl="/images/survey.png"/>
+      <div className="max-w-screen-xl mx-auto px-4">
+      {/* Project Container */}
+      <div
+        ref={scrollContainerRef}
+        onScroll={checkScroll}
+        className="flex flex-nowrap overflow-x-auto gap-6 scroll-smooth no-scrollbar mb-6"
+      >
+        <ProjectCard 
+          title="Pindev" 
+          description="A platform made for developers and designers to gather inspiration and valuable resources using NextJs and Firebase" 
+          imgUrl="/images/pindev.png"
+        />
+        <ProjectCard 
+          title="Namoudaj Ai" 
+          description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" 
+          imgUrl="/images/namodaj.jpeg"
+        />
+        <ProjectCard 
+          title="Survey App" 
+          description="A platform to fill surveys, manage them, create reports and more using React.js,TailwindCSS and Firebase" 
+          imgUrl="/images/survey.png"
+        />
       </div>
-      
+
+      {/* Navigation Buttons */}
+      <div className="flex justify-center gap-4">
+        <button
+          onClick={() => scroll('left')}
+          className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
+            !canScrollLeft 
+              ? 'opacity-50 cursor-not-allowed' 
+              : 'hover:border-gray-400 hover:bg-gray-50'
+          }`}
+          disabled={!canScrollLeft}
+          aria-label="Scroll left"
+        >
+          <ChevronLeft className="w-6 h-6 text-gray-200" />
+        </button>
+
+        <button
+          onClick={() => scroll('right')}
+          className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
+            !canScrollRight 
+              ? 'opacity-50 cursor-not-allowed' 
+              : 'hover:border-gray-400 hover:bg-gray-50'
+          }`}
+          disabled={!canScrollRight}
+          aria-label="Scroll right"
+        >
+          <ChevronRight className="w-6 h-6 text-gray-200" />
+        </button>
+      </div>
+    </div>
     </section>
   </main>
   );

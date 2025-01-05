@@ -38,3 +38,15 @@ body {
     animation-play-state: paused;
   }
 }
+
+/* Add to your global.css */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-hidden: none;
+    scrollbar-width: none;
+  }
+}
