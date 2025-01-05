@@ -19,7 +19,7 @@ const ProjectCard = ({ title, description, imgUrl }) => {
         {/* Title Container */}
         <div className="mt-8 text-center md:opacity-0 transform translate-y-[-20px] transition-all duration-300 ease-out group-hover:opacity-100 group-hover:translate-y-0">
           <h3 className="text-xl md:text-2xl font-bold">{title}</h3>
-          <p className="text-md md:text-lg font-extralight mt-2">{description}</p>
+          <p className="text-md md:text-lg font-extralight mt-2 text-gray-400">{description}</p>
         </div>
       </div>
     </div>
