@@ -153,27 +153,37 @@ export default function Home() {
           title="Universelle - Real estate agency website" 
           description="A real estate business that needed a redesign and SEO/Loading speed optimization - Astro/wordpress Headless CMS" 
           imgUrl="/images/universelle.png"
+          site={false}
+          link="https://ranket.ma"
         />
 
         <ProjectCard 
           title="Ranket - SEO agency" 
           description="An optimized website for all their needs, from SEO to high speed using Astro" 
           imgUrl="/images/ranket.png"
+          site={true}
+          link="https://ranket.ma"
         />
         <ProjectCard 
           title="HDiptv " 
           description="An iptv Landing page with a great design and optimization for an iptv company based in UK" 
           imgUrl="/images/iptv.png"
+          site={false}
+          link="https://ranket.ma"
         />
         <ProjectCard 
           title="Pindev" 
           description="A platform made for developers and designers to gather inspiration and valuable resources using NextJs and Firebase" 
           imgUrl="/images/pindev.png"
+          site={false}
+          link="https://ranket.ma"
         />
         <ProjectCard 
           title="Namoudaj Ai" 
           description="An Ai platform that helps with arabic, amazigh and Darija questions for a specific school needs, using NextJs, TailwindCSS, .Net core and Azure OpenAi API" 
           imgUrl="/images/namodaj.jpeg"
+          site={false}
+          link="https://ranket.ma"
         />
         
       </div>
