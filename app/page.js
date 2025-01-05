@@ -195,7 +195,7 @@ export default function Home() {
           className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
             !canScrollLeft 
               ? 'opacity-50 cursor-not-allowed' 
-              : 'hover:border-gray-400 hover:bg-gray-50'
+              : 'hover:border-BrandPurple hover:bg-gray-50'
           }`}
           disabled={!canScrollLeft}
           aria-label="Scroll left"
@@ -208,7 +208,7 @@ export default function Home() {
           className={`flex items-center justify-center w-12 h-12 rounded-full border border-gray-200 transition-all ${
             !canScrollRight 
               ? 'opacity-50 cursor-not-allowed' 
-              : 'hover:border-gray-400 hover:bg-gray-50'
+              : 'hover:border-BrandPurple hover:bg-gray-50'
           }`}
           disabled={!canScrollRight}
           aria-label="Scroll right"
